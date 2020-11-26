@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_emailTitle"
+            android:paddingTop="10dip"
+            android:paddingLeft="10dip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="?attr/textDarkColor"
+            android:text="@string/email" />
+
+        <TextView
+            android:id="@+id/tv_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dip"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="?attr/textDarkColor"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/tv_passwordTitle"
+            android:paddingTop="10dip"
+            android:paddingLeft="10dip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="?attr/textDarkColor"
+            android:text="@string/password" />
+
+        <TextView
+            android:id="@+id/tv_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dip"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="?attr/textDarkColor"
+            android:text="TextView" />
+
+        <Button
+            android:id="@+id/bt_todo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@color/todolist"
+            android:text="@string/to_do_list"
+            android:textColor="?attr/textWhiteColor" />
+
+        <Button
+            android:id="@+id/bt_logout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/logout"
+            android:text="@string/log_out"
+            android:textColor="?attr/textWhiteColor" />
+    </LinearLayout>
+
+</RelativeLayout>
